@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">-->
+  </head>
+  <body>
+    <div class="page_wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="wrapper">
+            <div class="header__modal__title">
+              <h1>Recipe book</h1>
+            </div>
+            <div class="header__button general__button">
+              <button>Add recipe</button>
+            </div>
+          </div>
+        </div>
+        <div class="modal__title">
+          <div class="container">
+            <div class="wrapper">
+              <div class="modal__title__text">
+                <h2>Add new recipe</h2>
+              </div>
+              <div class="general__button recipe__modal__close">
+                <button>Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div id="app"></div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
